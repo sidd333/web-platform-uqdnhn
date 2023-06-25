@@ -14,12 +14,6 @@ h2 {
   padding-top: 1em;
 }
 
-h1,
-h2,
-strong {
-  color: #333;
-}
-
 pre {
   background: rgb(239, 237, 237);
   padding: 20px 5px 4px 4px;
@@ -31,6 +25,7 @@ pre {
 }
 
 header {
+  border-radius: 4px;
   background-color: rgb(221, 219, 219);
   background-image: url('bg.jpg');
   background-position: center top;
@@ -39,6 +34,7 @@ header {
   line-height: 1.2;
   padding: 10vw 2em;
   text-align: center;
+  box-shadow: 10px 5px 5px rgb(151, 151, 151);
 }
 header img {
   display: inline-block;
@@ -46,3 +42,32 @@ header img {
   vertical-align: top;
   width: 120px;
 }
+
+header p  {
+  border: 1px solid #ffffff;
+  border-radius: 290486px;
+  color: rgb(22, 20, 20);
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+header p:hover {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  border-color: #333;
+  box-shadow: 0px 5px 5px 0px rgb(151, 151, 151);
+  cursor: pointer;
+}
+
+.introduction :first-child,
+h1,
+h2 {
+  font-weight: bold;
+  font-size: x-large;
+  color: #1e1e1e;
+}
+
